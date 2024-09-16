@@ -1,7 +1,9 @@
+spring:
+   application:
+      name: Config-Default
 eureka:
   instance:
     prefer-ip-address: true  # Corrected to 'instance' instead of 'instances'
-
   client:
     fetch-registry: true
     register-with-eureka: true
